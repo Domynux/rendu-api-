@@ -18,7 +18,7 @@
         }
     
         async function displayFilm(movie){
-            const api_key = '64be6fe5b5223aa571c5c83e5ffdd85d'
+            const api_key = '' <!-- mette clé api dans les ''-->
             const data = await fetchFilm(movie, api_key)
             console.log(data)
            document.querySelector ('#movie').innerHTML = `
